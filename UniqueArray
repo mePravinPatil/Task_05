@@ -1,9 +1,0 @@
-const arr1 = [1,2,3,3,'a',1,'a','b'];
-
-
-const fun = function(duplicateArray) {
-           let newArr = [...new Set(duplicateArray)];
-           console.log(newArr);
-};
-
-fun(arr1);
